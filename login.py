@@ -5,7 +5,7 @@ class Login:
         self.password = password
 
     def check_login(self):
-        if self.username == "Vinitha" and self.password == "wrong123":
+        if self.username == "Vinitha" and self.password == "Test123":
             return "Login successful"
         else:
             return "Invalid username or password"
